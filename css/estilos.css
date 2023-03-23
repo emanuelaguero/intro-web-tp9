@@ -1,11 +1,11 @@
 body {
-    background-image: linear-gradient(rgb(26, 10, 94),rgba(194, 199, 216, 0.5)),
+    background-image: linear-gradient(#22193F,rgba(194, 199, 216, 0.5)),
                     url("/images/ondas.svg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: bottom;
     background-size: 100%;
-  
+  background-color: #22193F;
    
 }
 
@@ -90,7 +90,7 @@ body {
 .contenidoDerecha input {
     border-radius: 20px;
     border: solid 1px;
-    border-color: rgb(150, 169, 185);
+    border-color:  #C4C4C4;
     width: 80%;
     height: 40px;
     margin: 2px;
@@ -113,7 +113,7 @@ body {
     font-size: 20px;
     margin-right: 280px;
     margin-bottom: 25px;
-    color: #680739;
+    color: #6A2A83;
     position: absolute;
     
 }
@@ -121,14 +121,14 @@ body {
     font-size: 20px;
     margin-right: 280px;
     margin-bottom: 20px;
-    color: #680739;
+    color: #6A2A83;
     position: absolute;
 }
 
 .contenidoDerecha a{
     margin-left: 160px;
     margin-top: -30px;
-    color: #e41f84;
+    color: #E21982;
     font-weight: bold;
     font-size: small;
     font-family: 'Nunito', sans-serif !important;
@@ -136,7 +136,7 @@ body {
 }
 
 .contenidoDerecha button {
-    background-color: #e41f84;
+    background-color: #E21982;
     border-radius: 20px; 
     border: none;
     align-items: flex-end;
